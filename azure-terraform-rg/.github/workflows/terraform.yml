@@ -1,3 +1,4 @@
+#gitaction
 name: 'Terraform Azure Resource Group'
 
 on:
