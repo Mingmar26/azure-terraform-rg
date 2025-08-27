@@ -1,10 +1,6 @@
-name: 'Terraform Plan'
-
+name: 'Terraform Manual Deploy'
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   terraform:
